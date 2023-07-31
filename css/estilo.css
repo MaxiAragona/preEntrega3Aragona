@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*INDEX*/
+header nav ul li {
+    text-transform: uppercase;
+}
+
+.logoHeader {
+    width: 100px;
+}
+
+body {
+    background-color: rgb(255, 193, 79);
+}
+
+.fondo {
+    background-color: #353434;
+}
+
+.navbar a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.divLocales {
+    text-align: center;
+}
+
+/*FOOTER*/
+.logoRedes {
+    width: 40px;
+    height: 40px;
+}
+
+footer {
+    border-top: 2px solid white;
+    padding: 30px 10px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+
+.seguinos {
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+/*BURGUERS*/
+
+h3 {
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.pFondo {
+    background-color: rgba(255, 226, 173, 0.993);
+}
+
+/*LOCALES*/
+
+.tarjetaLocales {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+.contenedorLocales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe2adfd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imgLocales {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .tarjetaLocales {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+/*CONOCENOS */
+.sectionAboutUs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardParrafo {
+    width: 70%;
+}
+
+.cardConocenos {
+    background-color: #ffe2adfd;
+    border-radius: 10px;
+    border: 20px #ffe2adfd solid;
+}
+
+.imgConocenos {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sectionAboutUs .contenido {
+    margin: 30px;
+}
+
+@media (max-width: 890px) {
+    .sectionAboutUs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*TRABAJA CON NOSOTROS */
+
+.trabajando {
+    width: 100%;
+    height: auto;
+}
+
+.formulario1 {
+    padding: 20px;
+}
+
+.label {
+
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    transition: width 1s;
+}
+
+.btn {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.sumate {
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .input {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .input {
+        width: 40%;
+    }
+}
