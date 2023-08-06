@@ -37,6 +37,11 @@ h1 {
     text-align: center;
 }
 
+.navbar-toggler {
+ border:2px solid wheat;
+}
+
+
 /*FOOTER*/
 .logoRedes {
     width: 40px;
