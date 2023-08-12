@@ -14,7 +14,7 @@ header nav ul li {
 }
 
 body {
-    background-color: rgb(255, 193, 79);
+    background-color: rgba(167, 97, 5, 0.959);
 }
 
 .fondo {
@@ -37,9 +37,6 @@ body {
     text-align: center;
 }
 
-.navbar-toggler {
- border:2px solid wheat;
-}
 
 .portadaFrase {
     width: 100%;
@@ -75,7 +72,7 @@ footer {
 }
 
 .pFondo {
-    background-color: rgba(255, 226, 173, 0.993);
+    background-color: rgba(219, 149, 18, 0.993);
 }
 
 /*LOCALES*/
@@ -92,7 +89,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 7px;
-    background-color: #ffe2adfd;
+    background-color: rgba(219, 149, 18, 0.993);
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -123,9 +120,9 @@ footer {
 }
 
 .cardConocenos {
-    background-color: #ffe2adfd;
+    background-color: rgba(219, 149, 18, 0.993);
     border-radius: 10px;
-    border: 20px #ffe2adfd solid;
+    border: 20px rgba(219, 149, 18, 0.993) solid;
 }
 
 .imgConocenos {
