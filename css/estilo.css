@@ -209,3 +209,7 @@ footer {
     text-transform: uppercase;
 
 }
+
+footer a {
+    text-decoration: none;
+}
