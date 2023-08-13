@@ -5,8 +5,11 @@
 }
 
 /*HEDER*/
+
 header nav ul li {
     text-transform: uppercase;
+    color: white;
+    
 }
 
 .logoHeader {
@@ -15,6 +18,11 @@ header nav ul li {
 
 .navbar a {
     color: white;
+}
+.headerFixed {
+    position: sticky;
+    width: 100%;
+    top: 0;
 }
 
 /*BODY*/
