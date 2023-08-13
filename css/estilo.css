@@ -84,6 +84,12 @@ body {
 
 /*LOCALES*/
 
+.tituloLocales {
+    background-color: black;
+    color: rgba(219, 149, 18, 0.993);
+    font-weight: bolder;
+}
+
 .tarjetaLocales {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -222,7 +228,7 @@ form {
 }
 
 footer {
-    background-color: rgba(219, 149, 18, 0.993) ;
+    background-color: rgba(219, 149, 18, 0.993);
     border-top: 2px solid white;
     padding: 30px 10px;
     width: 100%;
