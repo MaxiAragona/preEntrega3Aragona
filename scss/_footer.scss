@@ -1,0 +1,19 @@
+footer {
+	background-color: rgba(219, 149, 18, 0.993);
+	border-top: 2px solid white;
+	padding: 30px 10px;
+	width: 100%;
+	text-align: center;
+	.logoRedes {
+		width: 40px;
+		height: 40px;
+	}
+	.seguinos {
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	a {
+		text-decoration: none;
+		padding: 20px;
+	}
+}

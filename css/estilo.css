@@ -1,247 +1,193 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-/*HEDER*/
-
-header nav ul li {
-    text-transform: uppercase;
-    color: white;
-}
-
-.logoHeader {
-    width: 100px;
-}
-
-.navbar a {
-    color: white;
-}
-
-.headerFixed {
-    position: sticky;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-/*INDEX*/
 
 body {
-    background-color: rgba(167, 97, 5, 0.959);
+  background-color: rgba(167, 97, 5, 0.959);
 }
 
-.fondo {
-    background-color: #353434;
+header.navbar a {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 10px;
 }
-
-.titulos {
-    text-align: center;
-    background-color: black;
-    color: rgba(219, 149, 18, 0.993);
-    text-transform: uppercase;
-    font-weight: bolder;
+header.headerFixed {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
 }
-
-.divLocales {
-    text-align: center;
+header.fondo {
+  background-color: #353434;
 }
-
-.portadaFrase {
-    width: 100%;
-    max-height: 750px;
-}
-
-.estrellas {
-    height: 100px;
-}
-
-.testimonios {
-    text-align: center;
-}
-
-.testimoniosImg {
-    text-align: center;
-}
-
-.carousel {
-    margin-top: 10px;
-    background-color: white;
-}
-
-/*BURGUERS*/
-
-.subTitulos {
-    background-color: black;
-    color: rgba(219, 149, 18, 0.993);
-    font-weight: bolder;
-}
-
-.pFondo {
-    background-color: rgba(219, 149, 18, 0.993);
-}
-
-/*LOCALES*/
-
-.tituloLocales {
-    background-color: black;
-    color: rgba(219, 149, 18, 0.993);
-    font-weight: bolder;
-}
-
-.tarjetaLocales {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-    padding: 7px;
-}
-
-.contenedorLocales {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 7px;
-    background-color: rgba(219, 149, 18, 0.993);
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.imgLocales {
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-bottom: 20px;
-}
-
-@media (min-width: 768px) {
-    .tarjetaLocales {
-        grid-template-columns: repeat(2, 1fr);
-
-    }
-}
-
-/*CONOCENOS */
-
-.sectionAboutUs {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.cardParrafo {
-    width: 90%;
-}
-
-.cardConocenos {
-    background-color: rgba(219, 149, 18, 0.993);
-    border-radius: 10px;
-    border: 20px rgba(219, 149, 18, 0.993) solid;
-}
-
-.imgConocenos {
-    border-radius: 10px;
-    width: 100%;
-}
-
-.sectionAboutUs .contenido {
-    margin: 10px;
-}
-
-@media (max-width: 890px) {
-    .sectionAboutUs {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-
-/*TRABAJA CON NOSOTROS */
-
-.trabajando {
-    width: 100%;
-    max-height: 700px;
-}
-
-.formulario1 {
-    padding: 20px;
-}
-
-.label {
-
-    display: block;
-    font-weight: bolder;
-    margin-bottom: 10px;
-}
-
-.input {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    font-size: 15px;
-    transition: width 1s;
-}
-
-.btn {
-    cursor: pointer;
-    background-color: black;
-    color: white;
-}
-
-.btns {
-    display: flex;
-    gap: 10px;
-}
-
-.sumate {
-    color: black;
-    border-bottom: 2px solid white;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-@media (min-width: 768px) {
-    .input {
-        width: 50%;
-    }
-}
-
-@media (min-width: 992px) {
-    .input {
-        width: 40%;
-    }
-}
-
-/*FOOTER*/
-
-.logoRedes {
-    width: 40px;
-    height: 40px;
+header a .logoHeader {
+  width: 100px;
 }
 
 footer {
-    background-color: rgba(219, 149, 18, 0.993);
-    border-top: 2px solid white;
-    padding: 30px 10px;
-    width: 100%;
-    text-align: center;
-
+  background-color: rgba(219, 149, 18, 0.993);
+  border-top: 2px solid white;
+  padding: 30px 10px;
+  width: 100%;
+  text-align: center;
 }
-
-.seguinos {
-    font-weight: bold;
-    text-transform: uppercase;
+footer .logoRedes {
+  width: 40px;
+  height: 40px;
 }
-
+footer .seguinos {
+  font-weight: bold;
+  text-transform: uppercase;
+}
 footer a {
-    text-decoration: none;
-    padding: 20px;
+  text-decoration: none;
+  padding: 20px;
 }
+
+.bannerPrincipal {
+  width: 100%;
+  max-height: 750px;
+}
+
+.carousel {
+  margin-top: 10px;
+  background-color: white;
+}
+.carousel .estrellas {
+  height: 100px;
+}
+.carousel .testimonios {
+  text-align: center;
+}
+.carousel .testimoniosImg {
+  text-align: center;
+}
+
+.titulos {
+  text-align: center;
+  background-color: black;
+  color: rgba(219, 149, 18, 0.993);
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.subTitulos {
+  background-color: black;
+  color: rgba(219, 149, 18, 0.993);
+  font-weight: bolder;
+}
+
+.containerCentrado {
+  text-align: center;
+}
+
+.containerFondo {
+  background-color: rgba(219, 149, 18, 0.993);
+}
+
+.tarjetaLocales {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 15px;
+  padding: 7px;
+}
+
+.contenedorLocales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  background-color: rgba(219, 149, 18, 0.993);
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.imgLocales {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sectionAboutUs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sectionAboutUs .cardParrafo {
+  width: 90%;
+}
+.sectionAboutUs .cardParrafo .cardConocenos {
+  background-color: rgba(219, 149, 18, 0.993);
+  border-radius: 10px;
+  border: 20px rgba(219, 149, 18, 0.993) solid;
+}
+.sectionAboutUs .imgConocenos {
+  border-radius: 10px;
+  width: 100%;
+}
+.sectionAboutUs .contenido {
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .tarjetaLocales {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 890px) {
+  .sectionAboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario {
+  padding: 20px;
+}
+.formulario .label {
+  display: block;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.formulario .input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  transition: width 1s;
+}
+.formulario .btns {
+  display: flex;
+  gap: 10px;
+}
+.formulario .btns .btn {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .formulario .input {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .formulario .input {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

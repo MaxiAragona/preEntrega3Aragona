@@ -1,0 +1,23 @@
+header {
+	&.navbar {
+		a {
+			text-transform: uppercase;
+			color: white;
+			margin-left: 10px;
+		}
+	}
+	&.headerFixed {
+		position: sticky;
+		width: 100%;
+		top: 0;
+		z-index: 1000;
+	}
+	&.fondo {
+		background-color: #353434;
+	}
+	a {
+		.logoHeader {
+			width: 100px;
+		}
+	}
+}
