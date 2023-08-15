@@ -65,7 +65,16 @@ footer a {
   text-align: center;
 }
 
+.titulos {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: black;
+  color: rgba(219, 149, 18, 0.993);
+  font-weight: bolder;
+}
+
 .subTitulos {
+  text-align: center;
   background-color: black;
   color: rgba(219, 149, 18, 0.993);
   font-weight: bolder;
@@ -180,13 +189,6 @@ form {
   .formulario .input {
     width: 40%;
   }
-}
-.titulos {
-  text-align: center;
-  background-color: black;
-  color: rgba(219, 149, 18, 0.993);
-  text-transform: uppercase;
-  font-weight: bolder;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -1,6 +1,7 @@
-
+.titulos {
+	text-transform: uppercase;
+	@include commonTitulosEstilos;
+}
 .subTitulos {
-	background-color: black;
-	color: rgba(219, 149, 18, 0.993);
-	font-weight: bolder;
+    @include commonTitulosEstilos;
 }

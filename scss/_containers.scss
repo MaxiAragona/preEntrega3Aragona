@@ -3,7 +3,7 @@
 }
 
 .containerFondo {
-    background-color: rgba(219, 149, 18, 0.993);
+    background-color: $containerColor ;
 }
 
 .tarjetaLocales {
@@ -18,7 +18,7 @@
     flex-direction: column;
     align-items: center;
     padding: 7px;
-    background-color: rgba(219, 149, 18, 0.993);
+    background-color: $containerColor;
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -40,9 +40,9 @@
         width: 90%;
 
         .cardConocenos {
-            background-color: rgba(219, 149, 18, 0.993);
+            background-color: $containerColor;
             border-radius: 10px;
-            border: 20px rgba(219, 149, 18, 0.993) solid;
+            border: 20px $containerColor solid;
         }
     }
 
