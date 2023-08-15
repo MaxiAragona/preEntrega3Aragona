@@ -1,0 +1,11 @@
+@mixin titulos {
+    text-align: center;
+    background-color: black;
+    color: rgba(219, 149, 18, 0.993);
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.titulos {
+    @include titulos;
+}
