@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-/*HEADER*/
+
+body {
+  background-color: rgba(167, 97, 5, 0.959);
+}
+
 header.navbar a {
   text-transform: uppercase;
   color: white;
@@ -21,7 +25,7 @@ header.fondo {
 header a .logoHeader {
   width: 100px;
 }
-/*FOOTER*/
+
 footer {
   background-color: rgba(219, 149, 18, 0.993);
   border-top: 2px solid white;
@@ -42,13 +46,10 @@ footer a {
   padding: 20px;
 }
 
-/*INDEX*/
-body {
-  background-color: rgba(167, 97, 5, 0.959);
-}
 .bannerPrincipal {
   width: 100%;
   max-height: 750px;
+  object-fit: cover;
 }
 
 .carousel {
@@ -87,7 +88,7 @@ body {
 .containerFondo {
   background-color: rgba(219, 149, 18, 0.993);
 }
-/*LOCALES*/
+
 .tarjetaLocales {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -112,7 +113,7 @@ body {
   border-radius: 5px;
   margin-bottom: 20px;
 }
-/*CONOCENOS*/
+
 .sectionAboutUs {
   display: flex;
   flex-direction: row;
@@ -146,7 +147,6 @@ body {
     align-items: center;
   }
 }
-/*TRABAJA CON NOSOTROS*/
 form {
   display: flex;
   flex-direction: column;
