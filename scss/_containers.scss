@@ -1,7 +1,10 @@
 .containerCentrado {
     text-align: center;
 }
-
+.container {
+    margin : 0 auto ;
+    margin-bottom: 3rem;
+}
 .containerFondo {
     background-color: $containerColor ;
 }
